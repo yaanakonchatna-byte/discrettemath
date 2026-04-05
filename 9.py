@@ -53,7 +53,6 @@ def format_implicant(binary_str):
             res.append(f"!x{i+1}")
     return "".join(res)
 
-# Твій варіант 25
 minterms = [4, 5, 8, 9, 10, 11, 14, 15]
 primes = quine_mccluskey(minterms)
 
